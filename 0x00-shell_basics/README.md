@@ -30,3 +30,15 @@ Task12 : Write a script that prints the type of the file named iamafile. The fil
 Task13 : Create a symbolic link to /bin/ls, named __ls__. The symbolic link should b	     e created in the current working directory. ==> file(13-symbolic_link)
 
 Task14 : Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory. You can consider that all HTML files have the extension .html ==> file(14-copy_html)
+
+Task15 : Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u. ==> file(100-lets_move)
+
+Task16 : Create a script that deletes all files in the current working directory that end with the character ~. ==> file(101-clean_emacs)
+
+Task17  : Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory. You are only allowed to use two spaces (and lines) in your script, not more. ==> file(102-tree)
+
+Task18 : Write a command that lists all the files and directories of the current directory, separated by commas (,).
+Directory names should end with a slash (/)
+Files and directories starting with a dot (.) should be listed ==> file(103-commas)
+
+Task19 : Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0. ==> file(school.mgc)
