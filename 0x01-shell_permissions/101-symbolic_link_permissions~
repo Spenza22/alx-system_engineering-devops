@@ -1,0 +1,2 @@
+#!/bin/bash
+chown --dereferen vincent:staff _hello
